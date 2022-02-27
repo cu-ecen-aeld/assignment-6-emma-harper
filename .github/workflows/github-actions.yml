@@ -3,7 +3,7 @@ on: [push]
 jobs:
       full-test:  
         runs-on: self-hosted
-        timeout-minutes: 600
+        timeout-minutes: 2000
         steps:
           - uses: actions/checkout@v2
             with:
